@@ -1,0 +1,14 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+Executing tests from //tests:tests
+-----------------------------------------------------------------------------
+Running main() from gmock_main.cc
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from HelloWorldShould
+[ RUN      ] HelloWorldShould.ReturnHelloWorld
+[       OK ] HelloWorldShould.ReturnHelloWorld (0 ms)
+[----------] 1 test from HelloWorldShould (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (3 ms total)
+[  PASSED  ] 1 test.
